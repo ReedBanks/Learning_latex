@@ -1,0 +1,81 @@
+\documentclass{article}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{enumerate}
+\begin{document}
+	
+	1.Array
+	=> Everything in align is in math mode
+	\begin{align}
+		8x  this was text \text{ words go here }
+	\end{align}
+	
+	\begin{align}
+		8x^2-9&=x+3\\
+		8x^2&=x-6\\
+		8x^2-x+6&=0\\
+		0&=-8x+x-6
+	\end{align}
+	
+		\begin{align*}
+		8x^2-9&=x+3\\
+		8x^2&=x-6\\
+		8x^2-x+6&=0\\
+		0&=-8x+x-6
+	\end{align*}
+	something happened
+	
+	2.Lists
+	\begin{enumerate}
+		\item pencil
+			\begin{enumerate}
+				\item Bic
+				\item moan
+			\end{enumerate}
+		\item pen
+		\begin{enumerate}
+			\item Bic
+			\item Nataraj
+		\end{enumerate}
+		\item eraser
+		\item laptop
+		
+	\end{enumerate}
+	
+	\vspace{2cm}
+	\begin{enumerate}[A.]
+		\item pencil
+		\begin{enumerate}[i.]
+			\item Bic
+			\item moan
+		\end{enumerate}
+		\item pen
+		\begin{enumerate}\setcounter{enumi}{10}
+			\item Bic
+			\item Nataraj
+		\end{enumerate}
+		\item eraser
+		\item laptop
+		
+	\end{enumerate}
+	
+	\begin{itemize}
+		\item pencil
+		\begin{itemize}
+			\item Bic
+			\begin{itemize}
+				\item Bic
+				\item moan
+			\end{itemize}
+			\item moan
+		\end{itemize}
+		\item pen
+		\begin{itemize}
+			\item Bic
+			\item Nataraj
+		\end{itemize}
+		\item eraser
+		\item laptop
+	\end{itemize}
+	
+	
+\end{document}

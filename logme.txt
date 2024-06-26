@@ -1,0 +1,2 @@
+ssh -v git@github.com
+ssh -v git@github.com

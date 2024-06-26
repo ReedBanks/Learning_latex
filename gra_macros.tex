@@ -1,0 +1,49 @@
+\documentclass[14pt,a4paper]{article}
+
+%\usepackage{fullpage}
+\usepackage[top=1in,bottom=1in,left=1in,right=0.5in,paperwidth=8.5in,paperheight=11in]{geometry}
+\usepackage{graphicx}
+\usepackage{float} %using this for fig placement
+\usepackage{amsfonts,amssymb,amsmath}
+
+\def\equa1{y=\dfrac{x}{3x^2+4x-9}}
+\newcommand{\set}[1]{\setlength\itemsep{#1em}}
+
+\begin{document}
+	\textbf{Critical Thinking Questions}
+
+	\begin{enumerate}
+		\set{3} %new command to inc item spacing
+
+		\item{fullpage}\\
+		1 inche margin on all sides
+		\item{geometry}\\
+		gives you more control over the document's dimensions
+
+		\item{amsfonts gives us the symbols for maths and fonts}\\
+		Symbol for all real numbers: $\mathbb{R}$.\\
+		set of integers $\mathbb{Z}$
+
+		\item {macro }\\
+		used for things we want to use repeatedly.\\
+		$\equa1$ \\
+		$\equa1$ \\
+
+		\item\ Graphics\\
+		\begin{center}
+		\includegraphics[scale=0.5,width=7cm]{s}
+			\end{center}
+	\end{enumerate}
+	Figure me \\
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.8,width=7cm]{"/home/kali/Desktop/Codes/graphix/bll.jpg"}
+		\caption{black wall}
+	\end{figure}
+	4 $\pm$ 5=$x$
+	\\
+	\centering
+	$\lim\limits_{x \to \infty}f(x)$
+
+
+\end{document}
